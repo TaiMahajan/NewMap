@@ -1,0 +1,231 @@
+body{background-color:white}
+#country-flag{border:1px solid white;
+               height:150px}
+			   
+			   html, body, #container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#container {
+    z-index: 10;
+}
+
+h1 {
+    color: yellow;
+    font-size: 2.0em;
+    display: inline-block;
+    text-shadow: 1px 3px 5px grey;
+	font-family:"Times New Roman", Times, serif;
+
+
+}
+
+body {
+    padding-top: 56px;
+}
+
+@media only screen and (max-width: 991px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .icon {
+        padding-right: 3px;
+		
+    }
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.searchBar {
+    justify-content: flex-end;
+}
+
+.fixed-top {
+    min-height: 50px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+#form {
+    width: 50%;
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+
+}
+
+#titleH {
+    width: 50%;
+}
+
+#navBar {
+    background-color: #87CEFA;
+    box-shadow: 0px 2px 10px darkslategray;
+}
+
+.icon {
+    padding-top: 4px;
+    font-size: 1.7em;
+}
+
+.infoLink {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.modal {
+    max-height: 100vh;
+    
+}
+
+.modal-content {
+    background-color: #FAEBD7;
+}
+
+.bodyView {
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+
+/*Table formatting*/
+#info {
+    width: 90%;
+    margin: 0.5em auto;
+    font-size: 85%;
+    padding-top: 1rem;
+}
+
+#info .key {
+    text-align: left;
+    padding: 0.5em 0.3em;
+    font-weight: bold;
+    width: 50%;
+}
+
+#info .value {
+    width: 50%;
+    text-align: left;
+    padding: 0.5em 0.5em;
+}
+
+#info #imageCell {
+    width: 50%;
+}
+
+#info .flagImage {
+    display: block;
+    width: 75%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.titleCell {
+    font-size: 125%;
+}
+
+#mapInfo .flagImage {
+    width: 90%;
+    height: auto;
+}
+
+#mapInfo .key{
+    text-align: left;
+    font-weight: bold;
+    padding-right: 0.3em;
+}
+
+#mapInfo .key .value {
+    padding-top: 0.3em;
+}
+#mapInfo{
+	background-color:#FAEBD7;
+}
+
+#tableTitle {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#info .weatherIcon {
+    width: 20%;
+    margin: 0px auto;
+    height: auto;
+    display: block;
+}
+
+#info .weatherCondition {
+    text-align: center;
+    font-weight: bold;
+}
+
+#info .weatherTitle {
+    text-align: center;
+}
+
+.forecastTable {
+    width: 100%;
+}
+
+
+
+.forecastIconCell {
+    width: 3.4em;
+	
+}
+
+.foreCastIcon {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+	
+}
+
+.forecastCell {
+    text-align: center;
+
+}
+
+.forecastButton {
+    width: 2em;
+}
+
+#date1Forecast, #date2Forecast, #date3Forecast {  
+    display: none;
+    overflow: hidden;
+}
+
+
+  .currentKey {
+    text-align: center;
+    padding-bottom: 0.5em;
+  }
+
+  .currentValue {
+    text-align: center;
+  }
+
+  .currentSpace {
+      padding-top: 0.6em;
+  }
+
+ 
+  .cloud {
+    color: #d3d3d3;
+  }
+
+  .linkCell {
+      text-align: center;
+  }
+
+
+ 
